@@ -29,3 +29,10 @@ The output file is a tabulation delimited table of this format:
 Sequence_Name flows_count
 
 In case you use a Fasta sequence which contain nucleotide ambiguity (N), the Flows count will be equal to "NA"
+
+
+Troubleshooting:
+
+If you got an error saying that your python version cannot be found:
+
+Change the first line of the py script to the correct version ex: python3 to python or else
