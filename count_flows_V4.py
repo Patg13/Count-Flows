@@ -77,12 +77,12 @@ for ligne in lignes:
                 break      
             if base =='\n' or base=='' or base==' ':
                 break
-            if mat_cur==base and x !=0:
+            if mat_cur==base.upper() and x !=0:
                 continue
             else:
                 while True:
                     mat_cur=matrice[x]
-                    if base != mat_cur:
+                    if base.upper() != mat_cur:
                         flow +=1
                         x+=1
                         continue
